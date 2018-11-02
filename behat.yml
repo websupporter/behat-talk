@@ -8,12 +8,8 @@ default:
     Behat\MinkExtension:
       base_url: http://behat.wcthess    # [!] Change this for your local development.
       browser_name: chrome
-      default_session: default
+      default_session: selenium2
       javascript_session: selenium2
       sessions:
-        default:
-          goutte:
-            guzzle_parameters:
-              verify: false               # Allow self-signed SSL certificates
         selenium2:
           selenium2: ~
