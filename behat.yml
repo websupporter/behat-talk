@@ -17,6 +17,7 @@ default:
         selenium2:
           selenium2: ~
     PaulGibbs\WordpressBehatExtension:
+      path: /var/www/html/behat-talk/
       default_driver: wpcli
 
       users:
@@ -32,4 +33,4 @@ default:
         backup_path: ~
 
       wpcli:
-        binary: wp
+        binary: ./vendor/bin/wp
