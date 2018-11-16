@@ -1,7 +1,7 @@
 Feature: Posts
 
   @db
-  Scenario: Publish a post
+  Scenario: Edit a post
     Given I am logged in as admin
     Given I am on the edit screen for "Hello World!"
     Then I fill in "title" with "Hello Thessaloniki!"
